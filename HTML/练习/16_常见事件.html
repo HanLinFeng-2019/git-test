@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件</title>
+    <style>
+        over{
+            background-color:pink;
+        }
+        out{
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+
+<!--<input id="username">-->
+<script>
+    // document.getElementById("username").onblur = function(){
+    //     alert("失去焦点")
+    // }
+    document.getElementById("form").submit= function(){
+        return true;
+    }
+    var trs = document.getElementsByTagName("tr");
+    for(i=0;i<trs.length;i++){
+        trs[i].onmousemove = function(){
+            this.className = "over";
+        }
+
+        trs[i].onmouseout = function(){
+            this.className = "out";
+        }
+    }
+
+
+
+
+</script>
+
+<form action="#" id="form" >
+    <input type="submit" name="username" id="username">
+    <input type="text" name="输入">
+
+
+
+
+</form>
+</body>
+</html>

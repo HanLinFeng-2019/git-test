@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day17_案例/day17_案例.iml" filepath="$PROJECT_DIR$/day17_案例/day17_案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_JQuery基础/day20_JQuery基础.iml" filepath="$PROJECT_DIR$/day20_JQuery基础/day20_JQuery基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21_JQuery高级/day21_JQuery高级.iml" filepath="$PROJECT_DIR$/day21_JQuery高级/day21_JQuery高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23_ridis&amp;jedis/day23_ridis&amp;jedis.iml" filepath="$PROJECT_DIR$/day23_ridis&amp;jedis/day23_ridis&amp;jedis.iml" />
+    </modules>
+  </component>
+</project>
