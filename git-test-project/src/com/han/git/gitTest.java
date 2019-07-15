@@ -5,6 +5,6 @@ public class gitTest {
         System.out.println("hello git project!");
     }
     public void test(){
-        System.out.println("项目第一次修改");
+        System.out.println("项目第二次修改");
     }
 }
