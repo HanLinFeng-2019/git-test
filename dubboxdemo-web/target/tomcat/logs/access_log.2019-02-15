@@ -1,1 +1,0 @@
-0:0:0:0:0:0:0:1 - - [15/Feb/2019:18:13:04 +0800] "GET /user/showName.do HTTP/1.1" 200 7 http-bio-8082-exec-1 2191
