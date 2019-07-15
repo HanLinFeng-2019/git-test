@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+            <!--配置构造函数注入-->
+<bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+    <constructor-arg name="name" value="小名"></constructor-arg>
+    <constructor-arg name="age" value="18"></constructor-arg>
+    <constructor-arg name="birthday" ref="now"></constructor-arg>
+</bean>
+<!--配置一个日期对象-->
+    <bean id="now" class="java.util.Date"></bean>
+
+    <!--set方法注入-->
+    <bean id="accountService2" class="com.itheima.service.impl.AccountServiceImpl2">
+        <property name="name" value="TEst"></property>
+        <property name="age" value="18"></property>
+        <property name="birthday" ref="now"></property>
+    </bean>
+
+    <bean id="accountService3" class="com.itheima.service.impl.AccountServiceImpl3">
+        <property name="myStrs">
+            <set>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </set>
+        </property>
+
+        <property name="myList">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>aaa</value>
+                <value>aaa</value>
+                <value>aaa</value>
+            </set>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="test12">cccc</prop>
+                <prop key="test11">bbbb</prop>
+            </props>
+        </property>
+
+        <property name="myMap">
+            <map>
+                <entry key="test1" value="aaa"></entry>
+                <entry key="test2">
+                    <value>bbbbb</value>
+                </entry>
+            </map>
+        </property>
+
+
+    </bean>
+
+
+
+</beans>
