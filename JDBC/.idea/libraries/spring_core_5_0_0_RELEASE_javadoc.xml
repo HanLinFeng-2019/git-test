@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="spring-core-5.0.0.RELEASE-javadoc">
-    <CLASSES />
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/day05/JDBCTemplate/spring-core-5.0.0.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES />
-  </library>
-</component>
